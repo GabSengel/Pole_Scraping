@@ -63,7 +63,7 @@ La gestion des dépendances a été opéré avec `UV`. Pour travailler sur ces f
    ```bash
    uv sync
    ```
-uv sync doit normalement s'occuper d'installer les dépendances avec les bonnes version de manière automatique
+   uv sync doit normalement s'occuper d'installer les dépendances avec les bonnes version de manière automatique
 ---
 
 ### Lancer l'Application
