@@ -19,7 +19,7 @@ Nettoyage du dataset. Une fois nos données récoltées, nous avons nettoyé not
 Utilisation du Machine Learning pour réaliser les prédictions. Une fois nos données nettoyées, nous avons selectionné notre varibale à prédire, c'est à dire la variable "Allure", puis nous avons entrainer plusieurs modèle de Machine Learning. Nous avons ensuite selectionné le plus performant puis nous l'avons intégré a notre application.
 
 ### Partie 4 :
-Création d'une API. Une fois nos données prêtes et notre modèle sélectionné, nous avons créer une application avec Streamlit, qui permet aux utilistauers de parcouri les données et de prédire une grille en rentrant les informations nécessaires.
+Création d'une API. Une fois nos données prêtes et notre modèle sélectionné, nous avons créer une application avec Streamlit, qui permet aux utilisateurs de parcourir les données et de prédire une grille en rentrant les informations nécessaires.
 
 ---
 
