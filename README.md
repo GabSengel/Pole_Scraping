@@ -94,6 +94,11 @@ Exécutez la commande suivante pour lancer l'application Streamlit :
 - **Prédiction d'une futur grille de GP**
 - **Des informations supplémentaires sur notre projet**
 
+## Présentation de l'Application
+### Acceuil
+Lorsque vous allez lancer l'application, vous tomberez sur cette page d'acceuil :
+![Acceuil](img/Acceuil.png)
+
 ## Auteurs
 
 - **Gabin SENGEL** : https://www.linkedin.com/in/gabin-sengel/
