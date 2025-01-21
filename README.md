@@ -1,4 +1,4 @@
-# Pole_Scraping: Un Projet de Web Scraping et Machine Learning
+# Pole_Scraping
 
 Bienvenue dans le projet **Pole_Scraping**, une application combinant les techniques de web scraping et de machine learning pour analyser et prédire les performances en qualifications de Formule 1.
 
@@ -21,6 +21,8 @@ Utilisation du Machine Learning pour réaliser les prédictions. Une fois nos do
 ### 4ème partie :
 Création d'une API. Une fois nos données prêtes et notre modèle sélectionné, nous avons créer une application avec Streamlit, qui permet aux utilistauers de parcouri les données et tester une prédiction de qualifications en rentrant les informations nécessaires.
 
+---
+
 ## Fonctionnalités Principales
 - **Web Scraping** : Collecte automatisée de données depuis des sources fiables.
 - **Nettoyage de Données** : Prétraitement et organisation des données pour une meilleure qualité d'analyse.
@@ -29,7 +31,7 @@ Création d'une API. Une fois nos données prêtes et notre modèle sélectionn�
 
 ---
 
-### Technologies Utilisées
+## Technologies Utilisées
 - **Langage** : Python (3.9 ou supérieur)
 - **Bibliothèques Principales** :
   - Web Scraping : `BeautifulSoup`, `Selenium`
@@ -43,14 +45,14 @@ Création d'une API. Une fois nos données prêtes et notre modèle sélectionn�
 
 ---
 
-## Installation
+## Installation et Utilisation
 
 ### Prérequis
 1. **Python** : Assurez-vous que Python 3.9 ou supérieur est installé.
 2. **Git** : Installez Git pour cloner le dépôt.
 
 ### Dépendances
-La gestion des dépendances a été opéré à l'aide de `UV`. Pour travailler sur ces fichiers il vous suffit de :
+La gestion des dépendances a été opéré avec `UV`. Pour travailler sur ces fichiers il vous suffit de :
 
 1. Clonez ce dépôt Git :
 2. Lancer
@@ -66,14 +68,18 @@ La gestion des dépendances a été opéré à l'aide de `UV`. Pour travailler s
    ```bash
    uv sync
    ```
+
 ---
 
-## Lancer l'Application
+### Lancer l'Application
 Exécutez la commande suivante pour lancer l'application Streamlit :
    ```bash
    streamlit run streamlit_app.py
    ```
-## Tests
+
+---
+
+### Tests
 1. Exécutez la commande suivante pour lancer les tests :
    ```bash
    pytest
