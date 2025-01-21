@@ -56,6 +56,7 @@ La gestion des dépendances a été opéré avec `UV`. Pour travailler sur ces f
 
 1. Clonez ce dépôt Git
 2. Lancer :
+
    ```bash
    pip install uv
    ```
@@ -73,6 +74,7 @@ La gestion des dépendances a été opéré avec `UV`. Pour travailler sur ces f
 
 ### Lancer l'Application
 Exécutez la commande suivante pour lancer l'application Streamlit :
+
    ```bash
    streamlit run streamlit_app.py
    ```
@@ -81,10 +83,11 @@ Exécutez la commande suivante pour lancer l'application Streamlit :
 
 ### Tests
 1. Exécutez la commande suivante pour lancer les tests :
+   
    ```bash
    pytest
    ```
-2. Les tests couvrent les modules de scraping, nettoyage, machine learning et visualisation. (Attention : certains tests, notamment ceux qui concernent le scraping, lancent le Webdriver de Selenium, plus précisement le driver chromedriver)
+3. Les tests couvrent les modules de scraping, nettoyage, machine learning et visualisation. (Attention : certains tests, notamment ceux qui concernent le scraping, lancent le Webdriver de Selenium, plus précisement le driver chromedriver)
 
 ---
 
