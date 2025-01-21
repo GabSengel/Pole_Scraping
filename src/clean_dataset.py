@@ -272,7 +272,7 @@ def nettoyage_dataset(data_set_circuit : str, data_set_qualifs : str) -> pl.Data
     return df
 
 if __name__ == "__main__":
-    df_ml = nettoyage_dataset(data_set_circuit="data/results_scrap/data_set_infos_circuits.json", data_set_qualifs="data/results_scrap/data_set_qualifs2.json")
+    df_ml = nettoyage_dataset(data_set_circuit="data/results_scrap/data_set_infos_circuits.json", data_set_qualifs="data/results_scrap/data_set_qualifs.json")
     
     output_path = os.path.join(os.path.dirname("data/clean_df/"), "DataFrame.json")
 
