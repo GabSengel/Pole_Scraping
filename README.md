@@ -9,16 +9,16 @@ Dans le cadre de notre cours intitulé « Web Scraping et Machine Learning » de
 Nous avons opté pour les qualifications car elles sont confrontées à beaucoup moins d'aléas que la course. Les problèmes mécaniques y sont moins fréquents, et les accidents entre pilotes sont rares, car les qualifications ne reposent pas sur une confrontation directe entre eux.
 
 ## Organisation du projet
-### 1ere partie :
+### Partie 1 :
 Création d'une base de données. Pour cela, nous avons utilisé la méthode de web scraping, qui consiste à extraire des données directement depuis des sites internet afin de créer une base de données personnalisée. Nous sommes notamment aller chercher nos informations sur les sites StatsF1 et Wikipedia.
 
-### 2ème partie :
+### Partie 2 :
 Nettoyage du dataset. Une fois nos données récoltées, nous avons nettoyé notre dataset dans le but de rendre nos données compréhensibles et exploitables.
 
-### 3ème partie :
+### Partie 3 :
 Utilisation du Machine Learning pour réaliser les prédictions. Une fois nos données nettoyées, nous avons selectionné notre varibale à prédire, c'est à dire la variable "Allure", puis nous avons entrainer plusieurs modèle de Machine Learning. Nous avons ensuite selectionné le plus performant puis nous l'anonvs intégré a notre application :
 
-### 4ème partie :
+### Partie 4 :
 Création d'une API. Une fois nos données prêtes et notre modèle sélectionné, nous avons créer une application avec Streamlit, qui permet aux utilistauers de parcouri les données et tester une prédiction de qualifications en rentrant les informations nécessaires.
 
 ---
