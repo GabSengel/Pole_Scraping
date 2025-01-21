@@ -97,7 +97,27 @@ Exécutez la commande suivante pour lancer l'application Streamlit :
 ## Présentation de l'Application
 ### Acceuil
 Lorsque vous allez lancer l'application, vous tomberez sur cette page d'acceuil :
+
 ![Acceuil](img/Acceuil.png)
+
+Vous pourrez ensuite naviguer parmis les 3 onglets présent dans la barre de navigation :
+
+### Data Viz
+
+![Acceuil](img/DataViz.png)
+
+### Prédiction 
+Dans cette partie, vous trouverez des informations sur le modèle que nous avons choisit
+
+![Acceuil](img/Prediction1.png)
+
+Ensuite vous pourrez accéder à la partie "Prédiction d'une grille" où vous pourrez rentrer toutes les informations nécessaires à la prédiction 
+
+![Acceuil](img/Prediction2.png)
+
+Voici un exemple de sortie de l'application (GP de Monaco 2025)
+
+![Acceuil](img/Prediction3.png)
 
 ## Auteurs
 
