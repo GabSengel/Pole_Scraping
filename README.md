@@ -16,10 +16,10 @@ Création d'une base de données. Pour cela, nous avons utilisé la méthode de 
 Nettoyage du dataset. Une fois nos données récoltées, nous avons nettoyé notre dataset dans le but de rendre nos données compréhensibles et exploitables.
 
 ### Partie 3 :
-Utilisation du Machine Learning pour réaliser les prédictions. Une fois nos données nettoyées, nous avons selectionné notre varibale à prédire, c'est à dire la variable "Allure", puis nous avons entrainer plusieurs modèle de Machine Learning. Nous avons ensuite selectionné le plus performant puis nous l'anonvs intégré a notre application :
+Utilisation du Machine Learning pour réaliser les prédictions. Une fois nos données nettoyées, nous avons selectionné notre varibale à prédire, c'est à dire la variable "Allure", puis nous avons entrainer plusieurs modèle de Machine Learning. Nous avons ensuite selectionné le plus performant puis nous l'avons intégré a notre application.
 
 ### Partie 4 :
-Création d'une API. Une fois nos données prêtes et notre modèle sélectionné, nous avons créer une application avec Streamlit, qui permet aux utilistauers de parcouri les données et tester une prédiction de qualifications en rentrant les informations nécessaires.
+Création d'une API. Une fois nos données prêtes et notre modèle sélectionné, nous avons créer une application avec Streamlit, qui permet aux utilistauers de parcouri les données et de prédire une grille en rentrant les informations nécessaires.
 
 ---
 
@@ -54,8 +54,8 @@ Création d'une API. Une fois nos données prêtes et notre modèle sélectionn�
 ### Dépendances
 La gestion des dépendances a été opéré avec `UV`. Pour travailler sur ces fichiers il vous suffit de :
 
-1. Clonez ce dépôt Git :
-2. Lancer
+1. Clonez ce dépôt Git
+2. Lancer :
    ```bash
    pip install uv
    ```
@@ -84,7 +84,7 @@ Exécutez la commande suivante pour lancer l'application Streamlit :
    ```bash
    pytest
    ```
-2. Les tests couvrent les modules de scraping, nettoyage, machine learning et visualisation.
+2. Les tests couvrent les modules de scraping, nettoyage, machine learning et visualisation. (Attention : certains tests, notamment ceux qui concernent le scraping, lancent le Webdriver de Selenium, plus précisement le driver chromedriver)
 
 ---
 
