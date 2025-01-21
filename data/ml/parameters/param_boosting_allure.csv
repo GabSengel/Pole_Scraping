@@ -1,0 +1,4 @@
+Metric, Value
+regressor__learning_rate, 0.01
+regressor__max_depth, 7
+regressor__n_estimators, 2000
