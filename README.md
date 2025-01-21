@@ -61,15 +61,9 @@ La gestion des dépendances a été opéré avec `UV`. Pour travailler sur ces f
    pip install uv
    ```
    ```bash
-   uv venv
-   ```
-   ```bash
-   .venv\scripts\activate
-   ```
-   ```bash
    uv sync
    ```
-
+uv sync doit normalement s'occuper d'installer les dépendances avec les bonnes version de manière automatique
 ---
 
 ### Lancer l'Application
