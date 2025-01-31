@@ -163,8 +163,8 @@ if __name__ == "__main__":
     metrics_boosting, results_boosting = boosting_test(best_pipeline, X_test, y_test)
 
 
-    results_boosting.to_csv(f"results_boosting_.csv", index=False)
-    metrics_boosting.to_csv(f"metrics_boosting_.csv", index=False)
-    param_boosting.to_csv(f"param_boosting_.csv", index=False)
+    results_boosting.to_csv(f"data/ml/results/results_boosting_.csv", index=False)
+    metrics_boosting.to_csv(f"data/ml/metrics/metrics_boosting_.csv", index=False)
+    param_boosting.to_csv(f"data/ml/parameters/param_boosting_.csv", index=False)
 
-    joblib.dump(best_pipeline, f"model_boosting_.pkl")
+    joblib.dump(best_pipeline, f"data/ml/models/model_boosting_.pkl")
