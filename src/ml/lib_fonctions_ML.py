@@ -154,7 +154,7 @@ def boosting_test(best_pipeline, X_test, y_test):
 
 if __name__ == "__main__":
 
-    data = pd.read_json("DataFrame.json")
+    data = pd.read_json("data/cleand_df/DataFrame.json")
     data=modif_data(data)
 
     X_train, X_test, y_train, y_test= split_train_test(data, 'Allure')
